@@ -181,8 +181,6 @@ if __name__=="__main__":
             u.add_expence(message.from_user.full_name, message.text, dt)
 
         if not skip_message:
-            await message.answer(txt)
-            # await message.reply(message.text)
-            # await bot.send_message(message.from_user.id, message.text)		
+            await message.answer(txt)	
 
     executor.start_polling(dp, skip_updates=True)
