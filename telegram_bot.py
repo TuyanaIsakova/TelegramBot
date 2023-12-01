@@ -160,7 +160,7 @@ if __name__=="__main__":
         skip_message = False
         txt = ""
         if message.text.lower() == 'Hi'.lower():
-            txt = 'You too'
+            txt = 'You too!!!!'
         elif message.text.lower() == 'total'.lower():
             for i in u.get_total_by_users('name'):
                 txt += f"{i[0]}: {i[1]}\n"
